@@ -5,6 +5,7 @@
     <title>Task App</title>
     <link rel="stylesheet" href="style.css">
     <style>
+
 #task-form {
             margin-bottom: 20px;
         }
@@ -48,13 +49,18 @@
     <form id="task-form">
         
     </form>
+        <select id="status-dropdown" name="status">
+            <option value="todo">todo</option>
+            <option value="doing">doing</option>
+            <option value="done">done</option>
+        </select>
+        <button type="submit">Add</button>
+        
     <div id="tasks">
         <div id="task-row-1" class="row">
             <div id="task-description-1" class="task-description">pack spikes for track meet</div>
             <div id="task-status-1" class="todo task-status">todo</div>
         </div>
-
-        <button type="submit">Add</button>
         <div id="task-row-2" class="row">
             <div id="task-description-2" class="task-description">write draft english paper</div>
             <div id="task-status-2" class="doing task-status">doing</div>
